@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>.boxx{width: 500px;
+            height: 80px; 
+            background-color:pink;
+            padding: 10px 10px;
+            border: red groove 20px;
+            margin: 20px auto;
+            box-sizing: border-box;}
+        .p{width: 200px;
+           background-color:rgb(166, 15, 216);
+           margin-left: 200px;}
+        span{margin: 200px; 
+              background-color: white;
+              padding-top: 10px;
+              padding-bottom: 10px;}
+
+
+
+        .你好{background-color: lime;
+              height: 500px;
+              width: 500px;
+              margin: 10px;
+              position: relative; left: 10px;  top: 10px;}
+        .我是吃货{background-color: pink;
+            height: 100px;
+            width: 100px;
+            position: absolute;right: 1px;bottom: 1px;}  
+            
+            
+
+        .box{background-color: black;
+            height: 500px;
+            width: 500px;
+            margin-top:10px;margin-left: 0px;
+            position: relative; top: 500px;}
+        .box1{background-color: red;
+              width: 500px;
+              height: 20%;
+              position: absolute;
+                z-index: 5;}
+        .box2{background-color: yellow;
+              width: 500px;
+              height: 100px;
+              position: absolute;top: 100px;
+                z-index: 4;}
+        .box3{background-color:blue;
+              width:500px;
+              height: 100px;
+              position: absolute;top:200px;
+                z-index: 3;}
+        .box4{background-color: green;
+              width: 500px;
+              height: 500px;
+              position: absolute;
+                z-index: 2;}
+
+
+
+
+        
+
+</style>
+
+
+</head>
+<body>
+    <!-- 行级元素如span u i s。只能用margin，但不能用margin设施上下，只能左右。但块级元素无限制，如p div h。-->
+     <!-- botton是行内块级元素，权限同块级元素，但不会单独成行 -->
+      <!-- fixed,相对屏幕定位，会脱离文档流。relative，相当于元素原位置定位，不脱离文档流。
+       absolute，绝对定位，会脱离文档流。绝对定位过的元素，如果外层没有已经定位过的元素，就会继续往外找已经定位过的元素，直至屏幕-->
+<div class="boxx">人民日报2025年9月15日17:30</div>
+                    <p class="p">我是吃货</p>
+<h1>麻酱面</h1>
+<h2>烤肉</h2>
+<span>布丁奶茶</span>
+
+
+
+<div class="你好">
+    <div class="我是吃货">
+</div>
+
+
+
+<div class="box">
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+<div class="box4"></div>
+
+
+</div>    
+
+
+
+</body>
+</html>
